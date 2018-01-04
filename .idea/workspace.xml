@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="7" column="68" lean-forward="false" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -95,6 +95,11 @@
               <item name="BrainClub.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="BrainClub.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="BrainClub.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BrainClub.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -144,7 +149,7 @@
       <workItem from="1514504965939" duration="308000" />
       <workItem from="1515090872643" duration="425000" />
       <workItem from="1515091367553" duration="970000" />
-      <workItem from="1515092429267" duration="468000" />
+      <workItem from="1515092429267" duration="766000" />
     </task>
     <task id="LOCAL-00001" summary="Тест підключення phpStorm">
       <created>1513634257302</created>
@@ -181,11 +186,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515091993528</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Title change">
+      <created>1515092952969</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515092952969</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9006000" />
+    <option name="totallyTimeSpent" value="9304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,7 +292,8 @@
     <MESSAGE value="Revert &quot;move the points to the middle from the slider&quot;&#10;&#10;This reverts commit 64ea049" />
     <MESSAGE value="Translate" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Title change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Title change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -499,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" column="68" lean-forward="false" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
           <folding />
         </state>
       </provider>
