@@ -1334,7 +1334,7 @@ footer .widget .flickr_badge img {
 
   
 footer{
-	padding:50px 0 0 0;
+	padding: 0px 0 0 0;
 	color:#f8f8f8;
 }
 
@@ -1383,7 +1383,7 @@ ul.social-network li {
 	padding-top:30px;
 	margin:20px 0 0 0;
 	background: #2d2d2d;
-	border-top: 1px solid #3e3e3e;
+	border-top: 2px solid #ff5722;
 }
 
 #sub-footer p{
