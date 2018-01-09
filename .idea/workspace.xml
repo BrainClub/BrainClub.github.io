@@ -4,7 +4,6 @@
     <list default="true" id="d0a70cc0-6f8f-4b23-947e-630b01290089" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="C:\Users\Nick\PhpstormProjects\BrainClub.github.io\.idea\shelf/" />
     <ignored path="H:\GIT\dimatroix.github.io\.idea\shelf/" />
@@ -31,14 +30,14 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+            <state relative-caret-position="289">
+              <caret line="72" column="204" lean-forward="false" selection-start-line="72" selection-start-column="204" selection-end-line="72" selection-end-column="204" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#10097#10103#0" expanded="true" />
+                <element signature="e#10052#10058#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,7 +223,7 @@
       <workItem from="1515230426289" duration="356000" />
       <workItem from="1515230784232" duration="134000" />
       <workItem from="1515501446023" duration="1192000" />
-      <workItem from="1515502758594" duration="3675000" />
+      <workItem from="1515502758594" duration="4515000" />
     </task>
     <task id="LOCAL-00001" summary="Тест підключення phpStorm">
       <created>1513634257302</created>
@@ -289,11 +288,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515503891965</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="New  information and translate in about us">
+      <created>1515506740254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1515506740254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14776000" />
+    <option name="totallyTimeSpent" value="15616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,7 +399,8 @@
     <MESSAGE value="translate in servises" />
     <MESSAGE value="translate about us" />
     <MESSAGE value="translate Portholio and contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="translate Portholio and contact" />
+    <MESSAGE value="New  information and translate in about us" />
+    <option name="LAST_COMMIT_MESSAGE" value="New  information and translate in about us" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -630,14 +637,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        <state relative-caret-position="289">
+          <caret line="72" column="204" lean-forward="false" selection-start-line="72" selection-start-column="204" selection-end-line="72" selection-end-column="204" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#10097#10103#0" expanded="true" />
+            <element signature="e#10052#10058#0" expanded="true" />
           </folding>
         </state>
       </provider>
