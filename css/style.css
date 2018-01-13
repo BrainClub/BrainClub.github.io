@@ -1381,7 +1381,7 @@ ul.social-network li {
 	color: #dedede;
 	padding:0;
 	padding-top:30px;
-	margin:20px 0 0 0;
+	margin:-22px 0 0 0;
 	background: #2d2d2d;
 	border-top: 2px solid #ff5722;
 }
@@ -1492,6 +1492,7 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
+/*
 ============================= */
 
 .clear-marginbot{
