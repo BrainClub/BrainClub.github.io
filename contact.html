@@ -76,7 +76,13 @@
 					<p> </p>
 
 					<!-- Form itself -->
-					<form name="sentMessage" id="contactForm"  novalidate>
+					<form name="sentMessage" id="contactForm" >
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="BrainBasket Foundation Club">
+						<input type="hidden" name="admin_email" value="PeVas.G@gmail.com">
+						<input type="hidden" name="form_subject" value="Зворотній зв'язок">
+						<!-- END Hidden Required Fields -->
+
 						<div class="input-field">
 							<input type="text" name="name" class="form-control"
 								   id="name" required
@@ -86,13 +92,13 @@
 
 						</div>
 						<div class="input-field">
-							<input type="email" class="form-control" id="email" required
+							<input type="email" name="email" class="form-control" id="email" required
 								   data-validation-required-message="Please enter your email" />
 							<label for="name" class="">   Email </label>
 						</div>
 
 						<div class="input-field">
-				 <textarea rows="10" cols="100" required class="form-control materialize-textarea"
+				 <textarea name="text" rows="10" cols="100" required class="form-control materialize-textarea"
 						   idation-required-message="Please enter your message" minlength="5"
 						   data-validation-minlength-message="Min 5 characters"
 						   maxlength="999" style="resize:none"></textarea>
@@ -158,6 +164,7 @@
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/mailphp.js"></script>
 
 <script src="contact/jqBootstrapValidation.js"></script>
 <script src="contact/contact_me.js"></script>
