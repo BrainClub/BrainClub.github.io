@@ -15,6 +15,11 @@ body {
     font-size: 1.4em;
 }
 
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
 a:active {
     outline: 0;
 }
@@ -925,8 +930,8 @@ form#commentform textarea {
 
 .about-text .btn {
     margin-top: 20px;
-    //font-size: 15px;
-    //text-align: justify;
+    font-size: 15px;
+    text-align: justify;
 }
 
 .about-image img {}
@@ -938,7 +943,6 @@ form#commentform textarea {
 
 .about-text li {
     margin-bottom: 10px;
-    //
     font-weight: bold;
     list-style: none;
 }
@@ -1276,14 +1280,79 @@ footer .widget .social-network {
     position: relative;
 }
 
+
+/* Our team */
+
+button {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.block-heading-six h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-six button.slick-arrow {
+    font-size: 30px;
+    color: #ff5722;
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -65px);
+    z-index: 5;
+}
+
+.team-six .slick-dots {
+    display: flex !important;
+    margin: 25px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-six .slick-dots li {
+    list-style: none;
+    font-size: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #de8264;
+}
+
+.team-six .slick-dots li.slick-active {
+    background-color: #f1511e;
+}
+
+.team-six .slick-dots li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.team-six .slick-prev {
+    left: -20px;
+}
+
+.team-six .slick-next {
+    right: -20px;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+
 .team-member h4 {
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .team-member .deg {
     text-align: center;
     display: block;
+    color: #ff5722;
 }
 
 #bottom .widget .widgetheading span,
@@ -2081,6 +2150,15 @@ span.color {
     }
     [class*="span"] {
         margin-bottom: 20px;
+    }
+    .team-six .slick-prev {
+        left: -10px;
+    }
+    .team-six .slick-next {
+        right: -10px;
+    }
+    .team-member {
+        margin-left: 20px;
     }
 }
 
