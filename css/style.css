@@ -934,8 +934,6 @@ form#commentform textarea {
     text-align: justify;
 }
 
-.about-image img {}
-
 .about-text ul {
     margin-top: 30px;
     padding: 0;
@@ -1341,7 +1339,7 @@ button {
 .team-member {
     display: flex;
     flex-direction: column;
-    margin-left: 45px;
+    margin: 0 25px;
 }
 
 .team-member h4 {
@@ -2158,7 +2156,7 @@ span.color {
         right: -10px;
     }
     .team-member {
-        margin-left: 20px;
+        margin: 0 20px;
     }
 }
 

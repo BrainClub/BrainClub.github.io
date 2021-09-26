@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body class="about-page">
     <div id="wrapper">
         <!-- start header -->
         <header>
@@ -94,7 +94,7 @@
 
                     <!-- Our team starts -->
 
-                    <div class="team-six">
+                    <div class="team-six team-sliders">
                         <!-- Team Member -->
                         <div class="team-slider">
                             <div class="team-member">
@@ -271,7 +271,12 @@
                         <div class="col-lg-6">
                             <div class="copyright">
                                 <p>
-                                    <span>&copy; B.I.T 2021</span>
+                                    <span>&copy; B.I.T 
+                                        <script>
+                                        let today = new Date();
+                                        let year = today.getFullYear();
+                                        document.write(year);
+                                        </script> </span>
                                     <a href="http://dimatroix.github.io" target="_blank"></a>
                                 </p>
                             </div>

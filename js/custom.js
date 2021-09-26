@@ -148,40 +148,43 @@ jQuery(document).ready(function($) {
     });
 
     /* Slider for our Team */
-    $('.team-six').slick({
-        centerMode: true,
-        centerPadding: '80px',
-        autoplay: true,
-        autoplaySpeed: 4000,
-        slidesToShow: 4,
-        dots: true,
-        prevArrow: "<button type='button' class='slick-prev slick-arrow pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-        nextArrow: "<button type='button' class='slick-next slick-arrow pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
-        responsive: [{
-                breakpoint: 992,
-                settings: {
-                    centerMode: true,
-                    centerPadding: '40px',
-                    slidesToShow: 3
+    if ($('body').hasClass('about-page')) {
+        $('.team-sliders').slick({
+            centerMode: true,
+            centerPadding: '80px',
+            autoplay: true,
+            autoplaySpeed: 4000,
+            slidesToShow: 4,
+            dots: true,
+            prevArrow: "<button type='button' class='slick-prev slick-arrow pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+            nextArrow: "<button type='button' class='slick-next slick-arrow pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: false,
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 420,
+                    settings: {
+                        arrows: false,
+                        centerMode: false,
+                        slidesToShow: 2
+                    }
                 }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                    centerMode: false,
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 420,
-                settings: {
-                    arrows: false,
-                    centerMode: false,
-                    slidesToShow: 2
-                }
-            }
-        ]
-    });
+            ]
+        });
+    }
+
 
 });
